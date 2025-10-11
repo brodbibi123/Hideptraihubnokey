@@ -2,11 +2,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "hideptrai",
+         Title = "hideptraipre",
          Animation = "hideptrai"
          },
         Key = {
-        KeySystem = false,
+        KeySystem = true,
         Title = "hideptraikey",
         Description = "",
         KeyLink = "memaybeo",
@@ -30,12 +30,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "DUPEPET"})
+     local Tab1o = MakeTab({Name = "mở Script"})
      local Tab2o = MakeTab({Name = "HI"})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "dupe pet",
+     Name = "script pre",
     Callback = function()
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
