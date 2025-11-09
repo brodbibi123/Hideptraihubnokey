@@ -40,7 +40,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
-local kickMessage = "bạn đã bị cấm do sử dụng cheat 99999:59:59"
+local kickMessage = "bạn đã bị cấm do sử dụng exploit 99999:59:59"
 
 wait(2) -- đợi 2 giây trước khi kick
 
