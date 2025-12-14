@@ -1,49 +1,25 @@
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
-
-       local Window = MakeWindow({
-         Hub = {
-         Title = "hideptraipre",
-         Animation = "hideptrai"
-         },
-        Key = {
-        KeySystem = true,
-        Title = "hideptraikey",
-        Description = "",
-        KeyLink = "memaybeo",
-        Keys = {"1234"},
-        Notifi = {
-        Notifications = true,
-        CorrectKey = "Running the Script...",
-       Incorrectkey = "The key is incorrect",
-       CopyKeyLink = "Copied to Clipboard"
-      }
+Config = {
+    Team = "Pirates",
+    Configuration = {
+        HopWhenIdle = true,
+        AutoHop = true,
+        AutoHopDelay = 60 * 60,
+        FpsBoost = false,
+        blackscreen = true
+    },
+    Items = {
+        -- Melees 
+        AutoFullyMelees = true,
+        -- Swords 
+        Saber = true,
+        CursedDualKatana = true,
+        -- Guns 
+        SoulGuitar = true,
+        -- Upgrades 
+        RaceV2 = true
+    },
+    Settings = {
+        StayInSea2UntilHaveDarkFragments = false
     }
-  })
-
-       MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=3326758382",
-       Size = {51, 51},
-       Color = Color3.fromRGB(10, 10, 10),
-       Corner = true,
-       Stroke = false,
-       StrokeColor = Color3.fromRGB(255, 0, 0)
-      })
-      
------- Tab
-     local Tab1o = MakeTab({Name = "mở Script"})
-     local Tab2o = MakeTab({Name = "keyhuh"})
-------- BUTTON
-    
-    AddButton(Tab1o, {
-     Name = "script pre",
-    Callback = function()
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-
-local kickMessage = "bạn đã bị cấm do sử dụng exploit 99999:59:59"
-
-wait(2) -- đợi 2 giây trước khi kick
-
-LocalPlayer:Kick(kickMessage)
-   end
-   })
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hhl29042008-ops/script/refs/heads/main/cac"))()
